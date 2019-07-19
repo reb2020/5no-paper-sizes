@@ -2,7 +2,7 @@ namespace PaperSizesInterface {
     export interface Convert {
       [key: string]: number;
     }
-    
+
     export type TypeOfMeasure = 'mm' | 'in' | 'pt' | 'px'
 
     export interface Options {
@@ -11,7 +11,7 @@ namespace PaperSizesInterface {
       width: number;
       height: number;
     }
-    
+
     export interface Info {
       dpi: number;
       code: string;
