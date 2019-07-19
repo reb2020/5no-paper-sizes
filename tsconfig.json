@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "outDir": "compiled",
+        "module": "commonjs",
+        "target": "es5",
+        "lib": [
+            "es5",
+            "es6"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "lib/*": ["src/lib/*"]
+        },
+        "sourceMap": true,
+        "allowJs": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "rootDir": "src",
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "importHelpers": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": false,
+        "skipLibCheck": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

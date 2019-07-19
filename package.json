@@ -1,0 +1,47 @@
+{
+  "name": "5no-paper-sizes",
+  "version": "1.0.0",
+  "description": "Tool for get the paper dimensions",
+  "main": "compiled/index.js",
+  "scripts": {
+    "clean": "rm -rf compiled",
+    "lint": "eslint --ext .ts src",
+    "lint:fix": "eslint --fix --ext .ts src",
+    "build": "tsc",
+    "test": "mocha test",
+    "release": "yarn lint && yarn clean && yarn build"
+  },
+  "author": "reb2020",
+  "license": "MIT",
+  "keywords": [
+    "paper", 
+    "size", 
+    "pixels", 
+    "InchesToPixels", 
+    "MillimetersToPixels", 
+    "PointsToPixels", 
+    "converter", 
+    "iso-216", 
+    "iso-269"
+  ],
+  "homepage": "https://github.com/reb2020/5no-paper-sizes#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reb2020/5no-paper-sizes.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0",
+    "typescript": "^3.5.3"
+  }
+}
