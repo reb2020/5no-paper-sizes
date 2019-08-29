@@ -1,6 +1,6 @@
 {
   "name": "5no-paper-sizes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tool for get the paper dimensions",
   "main": "compiled/index.js",
   "scripts": {
