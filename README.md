@@ -48,7 +48,7 @@ data.heightToPixels()
 ## Examples
 
 ```js
-const PaperSizes = require('5no-paper-sizes')
+const PaperSizes = require('@5no/paper-sizes')
 
 let data = PaperSizes('A4')
 
