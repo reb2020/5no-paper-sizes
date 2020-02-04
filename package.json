@@ -1,5 +1,5 @@
 {
-  "name": "5no-paper-sizes",
+  "name": "@5no/paper-sizes",
   "version": "1.0.2",
   "description": "Tool for get the paper dimensions",
   "main": "compiled/index.js",
