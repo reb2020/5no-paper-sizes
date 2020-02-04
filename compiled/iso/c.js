@@ -57,4 +57,3 @@ exports.default = {
         pt: [79, 113],
     },
 };
-//# sourceMappingURL=c.js.map

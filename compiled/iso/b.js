@@ -72,4 +72,3 @@ exports.default = {
         pt: [31, 43],
     },
 };
-//# sourceMappingURL=b.js.map

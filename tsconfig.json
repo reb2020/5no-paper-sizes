@@ -9,10 +9,18 @@
         ],
         "baseUrl": ".",
         "paths": {
-            "lib/*": ["src/lib/*"]
+            "lib/*": ["src/lib/*"],
+            "typings/*": ["typings/*"]
         },
-        "sourceMap": true,
-        "allowJs": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./typings"
+        ],
+        "sourceMap": false,
+        "allowJs": false,
+        "emitDeclarationOnly": false,
+        "noEmit": false,
+        "declaration": true,
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
         "moduleResolution": "node",
@@ -25,10 +33,12 @@
         "strictNullChecks": true,
         "suppressImplicitAnyIndexErrors": true,
         "noUnusedLocals": false,
+        "strict": true,
         "skipLibCheck": true
     },
     "include": [
-        "src/**/*"
+        "src/**/*",
+        "typings/**/*"
     ],
     "exclude": [
         "node_modules"

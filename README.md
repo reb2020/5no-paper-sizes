@@ -1,3 +1,5 @@
+# <a href='https://5no.io'><img src='https://5no.io/img/5no-small-logo.png' height='100' alt='5no Logo' aria-label='5no.io' /></a>Paper Sizes
+
 Tool for get the paper dimensions in millimetres, inches, points, pixels
 
 The dimensions of the A, B series paper sizes are defined by the ISO 216 international paper size standard
@@ -5,10 +7,10 @@ The dimensions of the C series sizes are defined by the ISO 269 paper size stand
 
 ## Install
 
-5no-paper-sizes requires Node version 8 or a bove.
+@5no/paper-sizes requires Node version 8 or a bove.
 
 ```sh
-npm install --save 5no-paper-sizes
+npm install --save @5no/paper-sizes
 ```
 
 ## Doc

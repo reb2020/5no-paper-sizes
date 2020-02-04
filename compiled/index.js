@@ -117,4 +117,3 @@ module.exports = function (isoCode, options) {
     if (options === void 0) { options = defaultParameters; }
     return new PaperSizes(isoCode, options);
 };
-//# sourceMappingURL=index.js.map
